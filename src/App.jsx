@@ -31,7 +31,7 @@ To get you started, a portion of the solution is provided for you in the editor;
   ]);
   return (
     <div className="max-w-4xl mx-auto p-4 bg-dark-card_shadow_1 ">
-      <ThemeToggle />
+      {/* <ThemeToggle /> */}
       {/* <h1 className="text-2xl font-bold mb-4">Java's System.out.printf Function</h1>
       <p className="mb-4">
         Java's System.out.printf function can be used to print formatted output. The purpose of this exercise is to test your understanding of formatting output using printf.
