@@ -1,8 +1,11 @@
-import React, { useState } from "react";
-import "./App.css";
-import Problem from "./components/Problem";
+import EditorPage from "./page/EditorPage";
+
 const App = () => {
- return <Problem />
+  return (
+    <>
+      <EditorPage />
+    </>
+  );
 };
 
 export default App;

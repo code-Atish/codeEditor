@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
-import ThemeToggle from './ThemeToggle';
+import React, { useState } from "react";
+import ThemeToggle from "./ThemeToggle";
 export default function Problem() {
-    const [objective, setObjective] =
+  const [objective, setObjective] =
     useState(`Java's System.out.printf function can be used to print formatted output. The purpose of this exercise is to test your understanding of formatting output using printf.
-    <br/>
+    <br/> 
+    
 To get you started, a portion of the solution is provided for you in the editor; you must format and print the input to complete the solution.`);
   const [task, setTask] = useState(`Some Task`);
   const [inputFormat, setInputFormat] =
@@ -97,6 +98,5 @@ To get you started, a portion of the solution is provided for you in the editor;
         </React.Fragment>
       ))}
     </div>
-  ); 
-
+  );
 }
