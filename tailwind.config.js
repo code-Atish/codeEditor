@@ -12,6 +12,9 @@ export default {
           primary: '#4a90e2',
           secondary: '#d3d3d3',
           accent: '#8b572a',
+          color_shade_light: '#e7eeef',
+          color_text_dark_faded : '#576871',
+          color_text_medium_dark: '#35363f'
         },
         dark: {
           primary: '#1a202c',
