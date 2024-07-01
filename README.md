@@ -7,6 +7,9 @@ created a basic stracture and setup components. our task is to create a browser 
 
 codeEditor/
 ├── assets/
+│   ├── image.png
+│   ├── image-1.png
+│   ├── image-2.png
 │   ├── react.svg
 ├── src/
 │   ├── components/
@@ -30,3 +33,8 @@ codeEditor/
 │   ├── vite.config.js
 
 ```
+
+## Current Design
+![Large Device](/src/assets/image.png)
+![Medium Device](/src/assets/image-1.png)
+![Small Device](/src/assets/image-2.png)
