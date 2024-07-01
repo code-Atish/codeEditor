@@ -1,8 +1,10 @@
 # Upto skills 
 
-created a basic stracture and setup components.
+created a basic stracture and setup components. our task is to create a browser editor.
 
-## Folder Structure
+### Folder Structure
+```
+
 codeEditor/
 ├── assets/
 │   ├── react.svg
@@ -26,3 +28,5 @@ codeEditor/
 │   ├── README.md
 │   ├── tailwind.config.js
 │   ├── vite.config.js
+
+```
