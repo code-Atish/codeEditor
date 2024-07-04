@@ -35,6 +35,6 @@ codeEditor/
 ```
 
 ## Current Design
-![Large Device](/src/assets/image.png)
-![Medium Device](/src/assets/image-1.png)
-![Small Device](/src/assets/image-2.png)
+![Large Device](/src/assets/image-lg.png)
+![Medium Device](/src/assets/image-md.png)
+![Small Device](/src/assets/image-sm.png)
