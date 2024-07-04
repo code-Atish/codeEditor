@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      height: {
+        'custom-height': 'calc(100vh - 68px)',
+      },
       colors: {
         light: {
           primary: '#4a90e2',

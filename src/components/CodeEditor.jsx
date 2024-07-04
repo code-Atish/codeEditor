@@ -24,7 +24,7 @@ const CodeEditor = () => {
   };
 
   return (
-    <div className="flex flex-col items-center w-full h-screen p-4 space-y-4">
+    <div className="flex flex-col items-center w-full h-screen p-4 space-y-4" style={{direction : 'ltr'}}>
       <LanguageSelector language={language} onSelect={onSelect} />
       <div className="w-full flex-1">
         <Editor

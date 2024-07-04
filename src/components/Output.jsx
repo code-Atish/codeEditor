@@ -35,7 +35,7 @@ const Output = ({ editorRef, language }) => {
       </button>
      </div>
       <div
-        className={`h-full p-2 ${isError ? 'text-red-400 border-red-500' : 'border-white'} border rounded`}
+        className={`h-full mb-4 p-2 ${isError ? 'text-red-400 border-red-500' : 'border-white'} border rounded`}
       >
         {output
           ? output.map((line, i) => <p key={i}>{line}</p>)
