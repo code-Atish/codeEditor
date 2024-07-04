@@ -7,15 +7,22 @@ created a basic stracture and setup components. our task is to create a browser 
 
 codeEditor/
 ├── assets/
-│   ├── image.png
-│   ├── image-1.png
-│   ├── image-2.png
+│   ├── image-lg.png
+│   ├── image-md.png
+│   ├── image-sm.png
 │   ├── react.svg
 ├── src/
+│   ├── api/
+│   │   ├── api.js
 │   ├── components/
-│   │   ├── Navbar.jsx
+│   │   ├── CodeEditor.jsx
+│   │   ├── LanguageSelector.jsx
+│   │   ├── Output.jsx 
+│   │   ├── Navbar.jsx    
 │   │   ├── Problem.jsx
 │   │   ├── ThemeToggle.jsx
+│   ├── constants/
+│   │   ├── constants.js
 │   ├── page/
 │   │   ├── EditorPage.jsx
 │   ├── App.jsx
