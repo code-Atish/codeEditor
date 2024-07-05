@@ -1,10 +1,11 @@
-import FilterQuestion from "./components/FilterQuestion";
+import Form from "./components/Form";
+import EditorPage from "./page/EditorPage";
 
 const App = () => {
   return (
     <>
-      <FilterQuestion />  
-      {/* <CodeEditor/> */}
+    <EditorPage/>
+    {/* <Form/> */}
     </>
   );
 };
