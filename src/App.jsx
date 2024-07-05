@@ -1,10 +1,9 @@
-import CodeEditor from "./components/CodeEditor";
-import EditorPage from "./page/EditorPage";
+import FilterQuestion from "./components/FilterQuestion";
 
 const App = () => {
   return (
     <>
-      <EditorPage />
+      <FilterQuestion />  
       {/* <CodeEditor/> */}
     </>
   );
