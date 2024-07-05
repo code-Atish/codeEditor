@@ -24,10 +24,13 @@ export default {
           card_shadow_2 : '#1d2432',
           color_text_dark_faded : '#b5c0d0',
           color_text_dark : '#fff',
-          color_shade_light: '#1d2432'
+          color_shade_light: '#1d2432',
+          filterTitle:'#92B0CD'
         },
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
