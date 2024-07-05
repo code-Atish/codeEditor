@@ -7,6 +7,7 @@ created a basic stracture and setup components. our task is to create a browser 
 
 codeEditor/
 ├── assets/
+│   ├── image-form.png
 │   ├── image-lg.png
 │   ├── image-md.png
 │   ├── image-sm.png
@@ -16,6 +17,8 @@ codeEditor/
 │   │   ├── api.js
 │   ├── components/
 │   │   ├── CodeEditor.jsx
+│   │   ├── FilterQuestion.jsx
+│   │   ├── Form.jsx
 │   │   ├── LanguageSelector.jsx
 │   │   ├── Output.jsx 
 │   │   ├── Navbar.jsx    
@@ -45,3 +48,6 @@ codeEditor/
 ![Large Device](/src/assets/image-lg.png)
 ![Medium Device](/src/assets/image-md.png)
 ![Small Device](/src/assets/image-sm.png)
+
+## form design
+![Form img](image.png)
