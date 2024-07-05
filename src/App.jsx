@@ -6,7 +6,7 @@ const App = () => {
     <>
       {/* <FilterQuestion />   */}
       {/* <CodeEditor/> */}
-      <QuestionPreviewCard difficulty={'easy'} skill={'c'} maxScore={5} successRate={8.4}/>
+      <QuestionPreviewCard title={'Playing with Characters'} difficulty={'easy'} skill={'c'} maxScore={5} successRate={8.4}/>
     </>
   );
 };

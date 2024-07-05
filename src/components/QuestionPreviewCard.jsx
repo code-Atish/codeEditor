@@ -2,13 +2,13 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 
-function QuestionPreviewCard({difficulty,skill, maxScore, successRate}) {
+function QuestionPreviewCard({title,difficulty,skill, maxScore, successRate}) {
   return (
-    <div className='px-10 py-5 bg-gray-900 inline-block w-full rounded-lg flex item-center justify-between flex-wrap'>
+    <div className='px-10 py-5 m-auto bg-gray-900 rounded-lg flex item-center justify-between flex-wrap' style={{maxWidth:'95%'}}>
       <div className='text-white'>
-        <h2 className='text-2xl'>Playing with Characters</h2>
+        <h2 className='text-2xl'>{title}</h2>
         <div className='flex gap-2 mt-2'>
-          <span className='text-green-900 capitalize'>{difficulty}</span>
+          <span className='text-green-500 capitalize'>{difficulty}</span>
           <span className='capitalize'>{skill}</span>
           <span className='capitalize'>max score: {maxScore}</span>
           <span className='capitalize'>success rate: {successRate}</span>
