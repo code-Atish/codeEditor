@@ -50,4 +50,4 @@ codeEditor/
 ![Small Device](/src/assets/image-sm.png)
 
 ## form design
-![Form img](image.png)
+![Form img](/src/assets/image-form.png)
