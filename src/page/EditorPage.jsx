@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Problem from "../components/Problem";
 import CodeEditor from "../components/CodeEditor";
+import Footer from "../components/Footer";
 
 const EditorPage = () => {
   return (
@@ -15,6 +16,7 @@ const EditorPage = () => {
         <CodeEditor/>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
