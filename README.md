@@ -16,6 +16,7 @@ codeEditor/
 │   ├── api/
 │   │   ├── api.js
 │   ├── components/
+│   │   ├── AccessAcountNavbar.jsx
 │   │   ├── CodeEditor.jsx
 │   │   ├── FilterQuestion.jsx
 │   │   ├── Form.jsx
@@ -28,6 +29,7 @@ codeEditor/
 │   ├── constants/
 │   │   ├── constants.js
 │   ├── page/
+│   │   ├──AccessAccountPage.jsx
 │   │   ├── EditorPage.jsx
 │   ├── App.jsx
 │   ├── index.css
