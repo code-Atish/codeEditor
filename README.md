@@ -23,6 +23,7 @@ codeEditor/
 │   │   ├── Output.jsx 
 │   │   ├── Navbar.jsx    
 │   │   ├── Problem.jsx
+|   |   ├── QuestionPreviewCard.jsx
 │   │   ├── ThemeToggle.jsx
 │   ├── constants/
 │   │   ├── constants.js
@@ -41,6 +42,7 @@ codeEditor/
 │   ├── README.md
 │   ├── tailwind.config.js
 │   ├── vite.config.js
+    
 
 ```
 
