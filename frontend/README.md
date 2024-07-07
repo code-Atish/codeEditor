@@ -16,6 +16,7 @@ codeEditor/
 │   ├── api/
 │   │   ├── api.js
 │   ├── components/
+│   │   ├── AccessAcountNavbar.jsx
 │   │   ├── CodeEditor.jsx
 │   │   ├── FilterQuestion.jsx
 │   │   ├── Form.jsx
@@ -23,10 +24,12 @@ codeEditor/
 │   │   ├── Output.jsx 
 │   │   ├── Navbar.jsx    
 │   │   ├── Problem.jsx
+|   |   ├── QuestionPreviewCard.jsx
 │   │   ├── ThemeToggle.jsx
 │   ├── constants/
 │   │   ├── constants.js
 │   ├── page/
+│   │   ├──AccessAccountPage.jsx
 │   │   ├── EditorPage.jsx
 │   ├── App.jsx
 │   ├── index.css
@@ -41,6 +44,7 @@ codeEditor/
 │   ├── README.md
 │   ├── tailwind.config.js
 │   ├── vite.config.js
+    
 
 ```
 
