@@ -4,7 +4,7 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 function QuestionPreviewCard({title,difficulty,skill, maxScore, successRate}) {
   return (
-    <div className='px-10 py-5 m-auto bg-gray-900 rounded-lg flex item-center justify-between flex-wrap' style={{maxWidth:'95%'}}>
+    <div className='m-4 px-10 py-5 m-auto bg-gray-900 rounded-lg flex item-center justify-between flex-wrap w-[60vw]' style={{maxWidth:'95%'}}>
       <div className='text-white'>
         <h2 className='text-2xl'>{title}</h2>
         <div className='flex gap-2 mt-2'>
