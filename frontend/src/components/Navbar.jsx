@@ -9,10 +9,10 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className="bg-[#111827] p-4">
+		<nav className="bg-white dark:bg-[#111827] p-4">
 			<div className="container mx-auto flex items-center justify-between">
-				<div className="text-white text-3xl font-bold">UptoSkills</div>
-				<div className="hidden md:flex space-x-8 text-lg text-white">
+				<div className="dark:text-white text-black text-3xl font-bold">UptoSkills</div>
+				<div className="hidden md:flex space-x-8 text-lg dark:text-white text-black">
 					<NavLink to="/" className="hover:text-gray-400">
 						Home
 					</NavLink>
@@ -29,7 +29,7 @@ const Navbar = () => {
 				<div className="md:hidden">
 					<button
 						onClick={toggleMenu}
-						className="text-white focus:outline-none"
+						className="dark:text-white text-black focus:outline-none"
 					>
 						<svg
 							className="w-6 h-6"
