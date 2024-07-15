@@ -2,7 +2,7 @@ import React from 'react'
 
 function FilterQuestion() {
   return (
-    <div className='pl-5 bg-black inline-block text-white min-w-96'>
+    <div className='pl-5 text-black bg-white dark:bg-black inline-block dark:text-white min-w-96'>
       <div className='border-b p-5 pl-0'>
         <span className='text-xl text-dark-filterTitle uppercase'>Status</span>
 

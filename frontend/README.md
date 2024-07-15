@@ -28,6 +28,8 @@ codeEditor/
 │   │   ├── ThemeToggle.jsx
 │   ├── constants/
 │   │   ├── constants.js
+│   ├── contexts
+|   │   ├── ThemeContext.jsx
 │   ├── page/
 │   │   ├──AccessAccountPage.jsx
 │   │   ├── EditorPage.jsx
