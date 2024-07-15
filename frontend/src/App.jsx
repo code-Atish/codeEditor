@@ -13,6 +13,7 @@ import QuestionPreviewCard from "./components/QuestionPreviewCard";
 import Form from "./components/Form";
 import EditorPage from "./page/EditorPage";
 import FilterQuestionPage from "./page/FilterQuestionPage";
+import HomePage from "./page/HomePage";
 
 const App = () => {
 	const router = createBrowserRouter(
@@ -22,6 +23,7 @@ const App = () => {
 				{/* <Route path="/about" element={<AboutPage />} />
 				<Route path="/services" element={<ServicesPage />} />
 				<Route path="/contact" element={<ContactPage />} /> */}
+				<Route path="/home" element={<HomePage />} />
 				<Route path="*" element={<NotFoundPage />} />
 			</Route>
 		)
