@@ -26,7 +26,7 @@ const MainLayout = () => {
 	return (
 		<>
 		<ThemeProvider value={{themeMode,lightMode,darkMode}}>
-			<ThemeBtn/>
+			{/* <ThemeBtn/> */}
 			<Navbar />
 			<Outlet />
 			<Footer />

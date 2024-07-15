@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-
+import ThemeBtn from './ThemeToggle.jsx'
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
@@ -12,6 +12,7 @@ const Navbar = () => {
 		<nav className="bg-white dark:bg-[#111827] p-4">
 			<div className="container mx-auto flex items-center justify-between">
 				<div className="dark:text-white text-black text-3xl font-bold">UptoSkills</div>
+				<ThemeBtn/>
 				<div className="hidden md:flex space-x-8 text-lg dark:text-white text-black">
 					<NavLink to="/" className="hover:text-gray-400">
 						Home
