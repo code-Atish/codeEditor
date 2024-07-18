@@ -26,6 +26,9 @@ const Navbar = () => {
 					<NavLink to="/contact" className="hover:text-gray-400">
 						Contact
 					</NavLink>
+					<NavLink to="/form" className="hover:text-gray-400">
+						Form
+					</NavLink>
 				</div>
 				<div className="md:hidden">
 					<button
