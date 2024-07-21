@@ -1,10 +1,11 @@
-require('dotenv').config();
-const express = require('express');
-const cors = require('cors');
-const mongoose = require('mongoose');
-const bodyParser = require('body-parser');
 
-// Initialize Express App
+require("dotenv").config();
+const express = require("express");
+const cors = require("cors");
+const bodyParser = require('body-parser');
+const formRoutes = require('./routes/formRoutes')
+const mongoose = require('mongoose');
+
 const app = express();
 const PORT = process.env.PORT || 5000;
 
@@ -20,19 +21,21 @@ mongoose.connect(process.env.MONGO_URI, {
 
 // Using Middleware
 app.use(cors());
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
 
-// Import Routes
-const userRoutes = require('./routes/UserRoutes');
+// Middleware
+app.use(bodyParser.json());
+
+app.use(bodyParser.urlencoded({ extended: true }));
 
 // Use Routes
 app.use('/api', userRoutes);
 
-// Default Route
+app.use('/api/forms', formRoutes);
+
 app.get('/', (req, res) => {
   res.send('Hello World');
 });
+
 
 // Start Server
 app.listen(PORT, () => {

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import axios from 'axios'
 const Form = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -16,9 +16,14 @@ const Form = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(formData);
+    try {
+      const response = await axios.post('http://localhost:5000/api/forms/submit', formData);
+      alert(response.data.message);
+    } catch (error) {
+      console.error('There was an error submitting the form!', error);
+    }
   };
 
   return (
