@@ -1,7 +1,7 @@
 import React from "react";
 import LogoStrip from "./LogoStrip";
 
-export default function HomeIntro() {
+const HomeIntro = () => {
 	return (
 		<div className="min-h-screen overflow-hidden px-4 relative py-11 flex flex-col items-center justify-center ">
 			<h1 className="font-bold text-3xl mb-4 lg:font-black lg:text-6xl text-center max-w-screen-sm mx-auto">
@@ -27,4 +27,6 @@ export default function HomeIntro() {
 			<div className="absolute w-px h-px block shadow-[0_0_1000px_350px_#1BA94C] z-[-1] translate-x-[80%] translate-y-[-80%] opacity-20 rounded-[50%] left-0 top-full"></div>
 		</div>
 	);
-}
+};
+
+export default HomeIntro;

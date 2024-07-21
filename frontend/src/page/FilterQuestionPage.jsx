@@ -2,7 +2,8 @@ import React from "react";
 import FilterQuestion from "../components/FilterQuestion";
 import QuestionPreviewCard from "../components/QuestionPreviewCard";
 import Navbar from "../components/Navbar";
-export default function FilterQuestionPage() {
+
+const FilterQuestionPage = () => {
 	return (
 		<div>
 			{/* <Navbar /> */}
@@ -71,4 +72,6 @@ export default function FilterQuestionPage() {
 			</div>
 		</div>
 	);
-}
+};
+
+export default FilterQuestionPage;
